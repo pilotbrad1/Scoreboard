@@ -1,0 +1,72 @@
+@font-face {
+    font-family: digital;
+    src: url("Technology.ttf")
+}
+
+body {
+    margin: 0;
+    font: roboto;
+    color: #EEEEEE;
+    display: block;
+    text-align: center; 
+    background-color: black;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    background: #1B244A; 
+    
+        }
+
+#home-container, #guest-container {
+
+}
+
+p {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #F94F6D;
+    font-family: digital;
+    font-size: 75px;
+    padding-top: 20px;
+    border-radius: 7px;
+    background: black; 
+}
+
+button {
+    padding-top: 5px;
+    background-color: black;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-family: digital;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+    
+}
+button:hover {
+    background: white;
+    color: black;
+}
+
+#new_game_btn {
+    margin-top: 20px;
+    width: 100px;
+    padding: 6px;
+    color: #F94F6D;
+}
+
+#new_game_btn:hover {
+    background: white;
+    color: black;
+    border-color: red;
+}
